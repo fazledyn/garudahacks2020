@@ -1,0 +1,29 @@
+{% load static %}
+
+<section id="footer">
+  <div class="offer">
+    <h3>Available Courses</h3>
+    <ul>
+      <li><a href="#">Life skills</a></li>
+      <li><a href="#">Logical Thinking</a></li>
+      <li><a href="#">Programming</a></li>
+      <li><a href="#">Law and Arts</a></li>
+    </ul>
+  </div>
+
+  <div class="letter">
+    <a href="#"><img src="{% static 'images/3079.jpg' %}" width="600" height="200"></a>
+    <div class="newsletter">
+      <h3>Newsletter Subscribe</h3>
+      <p><i>Drop your email ID here to subscribe for newsletter.</i></p>
+    </div>
+    <form action="/newsletter_submit/" method="POST">
+    {% csrf_token %}
+      <label>Email ID: <input name="email" type="email" size="50" accept="text/plain" method="get"
+          style="height: 40px;"></label>
+
+      <input class="btn btn-primary btn-lg" type="submit" name="submit" method="POST"
+        style="padding:5px;border-bottom-width: thin;border-color: black;background-color: deeppink; color:black;font-family: sans-serif;font-weight: bold;">
+    </form>
+  </div>
+</section>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Courses for Study</title>
+  {% include "section/load_head.html" %}
+</head>
+
+<body>
+
+  {% include "section/navbar.html" %}
+
+  <section id="links">
+    <center>
+      <a href="#" target="_blank"> <button type="button" class="btn btn-outline-primary">Coding Ninjas</button></a>
+      <a href="https://www.open.edu/openlearn/languages" target="_blank"> <button type="button"
+          class="btn btn-outline-secondary">Open Learn University</button></a>
+      <a href="#"> <button type="button" class="btn btn-outline-success">LetsUpgrade</button>
+        <a
+          href="https://www.topuniversities.com/university-rankings-articles/university-subject-rankings/top-law-schools-2020"><button
+            type="button" class="btn btn-outline-danger">Law Schools around the World</button></a>
+        <a href="https://www.open.edu/openlearn/society"><button type="button" class="btn btn-outline-warning">Society,
+            Law and Politics</button></a>
+        <a
+          href="https://www.open.edu/openlearn/society-politics-law/introduction-crime-and-criminology/content-section-0?active-tab=description-tab"><button
+            type="button" class="btn btn-outline-info">Criminology</button></a>
+
+    </center>
+  </section>
+  <section id=course>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+          aria-selected="true">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="subjects-tab" data-toggle="tab" href="#subjects" role="tab" aria-controls="profile"
+          aria-selected="false">Subjects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+          aria-selected="false">Contact</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="homecontent1">
+          <h2>Preface</h2></br>
+          <p>Welcome folks of Indonesia, here are the list of courses provided for you.
+            As we know the Indonesian students are getting worse in the streams of mathematics and pure science. Also we
+            need the students of Indonesia to get prepared for industrial skills.
+            The industrial skills are important for standing the chance to lead the industries running in the Indonesia
+            where they are led by the other country inhabitants.</p>
+          <p>The eLearning platform is made to provide the educational support for the intermediate students and
+            matriculation passed students. The type of education we are providing is technical and interpersonal skills.
+            These skills are helpful for the upskilling themselves to stand as the eminent one among the community. The
+            skills developed by the students of this edu site will be able to secure the greatest of jobs in Indonesia
+            and will lead to a sustainable life among the community.</p>
+          <p>Career Mapping is a tool that provides young students on the verge of deciding their career paths with
+            unique, data-driven insights to help them build the careers they are suitable for. Career mapping basically
+            depicts the clear picture of what the student has done till now, academically & socially. To prepare Career
+            Map, we ask in for all the academic mark-sheets of the students, along with any extra and co-curricular
+            certificates. We also ask them to provide information on any educational tours and visits made.</p>
+          <h4> Some of the couses available are mentioned here; To check out the complete course catalog go to next tab
+            naming <i><b>"Subjects"</b></i></h4>
+          <ul id="unorderedlist1">
+            <li><a href="science.html">Pure Science</a></li>
+            <li><a href="maths.html">Mathematics</a></li>
+            <li><a href="law.html">Law and Society</li>
+            <li><a href="communication">Language and Communication</a></li>
+            <li><a href="softskills.html">Soft SKills and Interview</a></li>
+          </ul>
+
+
+          <a href="#subjects-tab"><button><label>Get Started</label></button></a>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="subjects" role="tabpanel" aria-labelledby="subjects-tab">
+        <div class="subjects">
+          <a href="#"><img src="images/science.jpg" width="200" height="200"></a>
+          <a href="#"><img src="images/background-with-advocacy-elements.jpg" width="200" height="200"></a>
+          <a href="#"><img src="images/math-round-flat-modern-or-vector.jpg" width="200" height="200"></a>
+          <a href="#"><img src="images/Skills-Testing-Square.jpg" width="200" height="200"></a>
+          <a href="#"><img src="images/Soft-Skills-In-The-Workplace.png" width="200" height="200"></a>
+          <div class="content-in-subject">
+            <h4>Check out some references related to your desired subjects in the Open Learn's Open Library, a digital
+              learning space. By scrolling down the page.</h4>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="contactform">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">select type of Query</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Select the Query</option>
+                <option>Regarding Courses</option>
+                <option>Regarding Course content</option>
+                <option>Regarding Assignment and Assessment</option>
+                <option>Regarding webinars</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Post your Query</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+
+          <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="library">
+    <center>
+      <h2> Online Digital Library</h2>
+      <i>Collaboration with Open University's <b>"Open Library"</b></i>
+      <a href="www.openlibrary.org"><img src="images/OU_Master_Logo_Dark_Blue.png" width="200" height="200">
+    </center>
+    <div class="col-sd-12">
+      <iframe src="https://openlibrary.org/" height="800" width="100%"></iframe>
+    </div>
+  </section>
+  <section id="university">
+    <h2 align="center">Universities and EduTechs supporting us</h2>
+    <div class="listofU">
+
+      <a href="https://www.codingninjas.com/"><img src="images/coding_ninja.png" alt="..." class="img-thumbnail"
+          width="200" height="200"></a>
+      <a href="https://www.futurelearn.com"><img src="images/futurelearn.png" alt="..." class="img-thumbnail"
+          width="200" height="200"></a>
+      <a href="#"><img src="images/OU_Master_Logo_Dark_Blue.png" alt="..." class="img-thumbnail" width="200"
+          height="200"></a>
+      <a href="#"><img src="images/University_of_delhi_logo.png" alt="..." class="img-thumbnail" width="200"
+          height="200"></a>
+      <a href="#"><img src="images/taylors-university.png" alt="..." class="img-thumbnail" width="200" height="200"></a>
+      <a href="#"><img src="images/graduate-school-high-school-students.jpg" alt="..." class="img-thumbnail" width="200"
+          height="200"></a>
+    </div>
+
+  </section>
+
+  {% include "section/social_media.html" %}
+  {% include "section/footer.html" %}
+
+</body>
+
+</html>

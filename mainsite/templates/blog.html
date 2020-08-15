@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>LockChain</title>
+  {% include "section/load_head.html" %}
+  </head>
+
+<body>
+  
+  {% include "section/navbar.html" %}
+
+
+  <section id="blog-files">
+    <div class="blog-files">
+      <center>
+        <a href="#" target="_blank"> <button type="button" class="btn btn-outline-primary">Coding Ninjas</button></a>
+        <a href="https://www.open.edu/openlearn/languages" target="_blank"> <button type="button"
+            class="btn btn-outline-secondary">Open Learn University</button></a>
+        <a href="#"> <button type="button" class="btn btn-outline-success">LetsUpgrade</button>
+          <a
+            href="https://www.topuniversities.com/university-rankings-articles/university-subject-rankings/top-law-schools-2020"><button
+              type="button" class="btn btn-outline-danger">Law Schools around the World</button></a>
+          <a href="https://www.open.edu/openlearn/society"><button type="button"
+              class="btn btn-outline-warning">Society, Law and Politics</button></a>
+          <a
+            href="https://www.open.edu/openlearn/society-politics-law/introduction-crime-and-criminology/content-section-0?active-tab=description-tab"><button
+              type="button" class="btn btn-outline-info">Criminology</button></a>
+          <a
+            href="https://www.open.edu/openlearn/society-politics-law/introduction-crime-and-criminology/content-section-0?active-tab=description-tab"><button
+              type="button" class="btn btn-outline-info">Criminology</button></a>
+
+          <a href="https://www.britannica.com/place/Indonesia"><button type="button"
+              class="btn btn-outline-info">Britannica | Indonesia</button></a>
+          <a href="https://www.travelandleisure.com/travel-guide/indonesia-asia/articles"><button type="button"
+              class="btn btn-outline-info">Travel blog articles</button></a>
+
+      </center>
+
+    </div>
+  </section>
+
+  <section>
+    <div style="padding: 20px;margin: 50px;background-color: red;color: white;border-radius: 10px;">
+      <h1 style="font-family: sans-serif;background-color: red;color: white;padding: 20px;"> Contribute your Articles
+        related to Social, Educational, Political, Traditional, Cultural, Moral, Economolical and many kind of genre
+        related articles to be published here.</h1>
+      <form action="/blog_submit/" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+        <div class="form-group">
+          <label for="exampleFormControlFile1">Example file input</label>
+          <input name='file' type="file" class="form-control-file" id="exampleFormControlFile1">
+          <input type="submit">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  {% include "section/social_media.html" %}
+  {% include "section/footer.html" %}
+
+</body>
+
+</html>
