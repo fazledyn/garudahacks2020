@@ -1,0 +1,24 @@
+  <section id="submission1">
+    <form action='/assignment_submit/' method='POST' enctype="multipart/form-data">
+    {% csrf_token %}
+      <div class="form-group">
+        <div class="file-instruction">
+          <p>**Instructions**</p>
+          <ul>
+            <li>You need mention your Name, emailID, Country, and your contact number on the header of your assignment
+              document.(mandatory) </li>
+            <li>Irrelevant documents are no considerable.</li>
+            <li>The evaluation and digital certificate generation may take 24 to 36 hours. Be patient, unnecessary
+              contacting is not encourageable.</li>
+          </ul>
+        </div>
+        <label for="exampleFormControlFile1">Assignment file upload</label>
+        <input name='file' type="file" class="form-control-file" id="file">
+        <input type="submit" name="submit">
+        <label id="form-control-file">Submit your assignments in the form of .doc or .pdf to the tutitors. Once the
+          assignment is evaluated the valuator will get you know the results through email attaching your score
+          cards.
+        </label>
+      </div>
+    </form>
+  </section>
