@@ -125,7 +125,8 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILE_DIRS = [
-    os.path.join(BASE_DIR, "mainsite/static"),
+    os.path.join(BASE_DIR, "mainsite/static/images"),
+    os.path.join(BASE_DIR, "mainsire/static/css"),
     os.path.join(BASE_DIR, "staticfiles"),
 ]
 
