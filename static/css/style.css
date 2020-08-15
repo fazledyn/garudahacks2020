@@ -1,0 +1,517 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#nav-bar{
+  position: sticky;
+  top:0;
+  z-index: 10;
+    background-color: aqua;
+}
+.fa fa-bars{
+  float: right;
+
+}
+#banner{
+  background-color: darkturquoise;
+
+}
+.promo-title h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+
+
+}
+.col-md-8{
+  position: sticky;
+  text-align: left;
+    align-content: center;
+  margin: 5px;
+  padding: 5px;
+
+
+}
+#logo{
+ margin-left:0%;
+float:right;
+height:300px;
+width:300px;
+
+}
+.col-md-6{
+    object-position:right;
+    text-align:match-parent;
+}
+.button{
+    color: aqua;
+    padding: 20px;
+
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 20;
+    font-style: italic;
+}
+button{
+    font-weight: bold;
+    padding:10px;
+     border-color: aqua;
+    color: white;
+    background-color: black;
+}
+
+#banner2{
+  background-color:chartreuse;
+}
+.col-mr-8{
+  position: sticky;
+  text-align: right;
+    align-content: center;
+  margin: 5px;
+  padding: 5px;
+
+
+}
+#banner3{
+  background-color:yellow;
+    text-emphasis-style:circle;
+}
+.col-mr-10{
+  position: sticky;
+  text-align: left;
+    align-content: center;
+  margin: 5px;
+  padding: 5px;
+}
+.offer{
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: beige;
+    background-color: dimgray;
+    width: 45%;
+    float: left;
+    height: 300px;
+}
+#footer a{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+.letter{
+    float: right;
+    font-size: 30;
+    font-family: serif;
+}
+.letter form{
+    font-family: sans-serif;
+    font-weight: bold;
+    float: center;
+    height: 90px;
+}
+.newsletter h3{
+    font-family: serif;
+    font-weight: 200;
+}
+.socialmedia{
+    align-items: baseline;
+    background-color: darkgrey;
+    padding: 10px;
+    margin: 10px;
+}
+#card{
+    margin: 10px;
+    padding: 10px;
+    position: sticky;
+   vertical-align: middle;
+
+}
+#about{
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+.text1{
+    width: 50%;
+    background-color: ;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.category{
+  background-color: white;
+}
+#course{
+  background-color: white;
+}
+#university{
+  padding: 10px;
+  margin-top: auto;
+}
+#links{
+  padding: 10px;
+}
+#donationform{
+  margin: 10px;
+  padding: 10px;
+  border: 2px;
+
+}
+.col-sm-12{
+  background-color: #D7FFA0;
+  padding: 10px;
+  margin: 10px;
+}
+#storyforcharity{
+  margin: 15px;
+  padding: 15px;
+}
+.s2{
+  align-content: right;
+  align-items: right;
+  text-align: right;
+}
+#introductiontocareer{
+    background-color: #FCB6FF;
+    font-family: Candara;
+    margin: 15px;
+    padding: 25px;
+    align-content: justify;
+}
+.btn btn-primary{
+  align-items: center;
+  padding: 10px;
+}
+#introductiontocareer .botton{
+ align-items: center;
+}
+#eduimp{
+  margin: 15px;
+  padding: 15px;
+  background-color: #FFF63B;
+  font-family: candara;
+  font-weight: 300;
+}
+#eduimp .p{
+  font-style: bold;
+}
+#gotodonation{
+  padding: 15px;
+  margin: 15px;
+}
+.contactform{
+  padding: 20px;
+  margin: 20px;
+}
+#contact{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.homecontent1{
+  padding: 10px;
+  margin:10px;
+}
+.preface-maths{
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 0px;
+  background-color: #58FF3B;
+}
+#content-maths h3{
+  background-color: #C1FFB6;
+  padding: 10px;
+  margin-top: : 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#content-maths{
+  background-color: #C1FFB6;
+  padding: 0px;
+  margin-top: : 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: candara;
+  font-weight: 200;
+}
+#maths-videos{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: : 30px;
+  padding-right: 30px;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #E0FFDA;
+}
+.assignment center{
+  font-family: candara;
+  font-style: bold;
+
+}
+#assignment{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#mathsassess{
+  float: center;
+  background-color: #F9FFB5;
+  padding: 10px;
+}
+#getstarted{
+  margin-left:10px;
+  margin-right: 10px;
+}
+.listname{
+  float: left;
+  position: sticky;
+  width: 50%;
+}
+.scrollspy-example{
+  float: right;
+  position: sticky;
+  width: 50%;
+}
+#maths-videos{
+  padding:10px;
+  margin:10px;
+}
+
+.assignment{
+  column-width: 100%;
+}
+#mathsassess{
+  padding-top: 10px;
+  margin: 10px;
+}
+.subjects{
+  padding:15px;
+  margin:10px;
+  box-shadow: inset;
+}
+#course{
+  background-color: #FFC300;
+  font-family: verdana;
+  font-weight: bold;
+}
+#unorderedlist1{
+  font-style: bold;
+  font-family: candara;
+  font-size: large;
+  padding: 10px;
+}
+#university .h2{
+  padding-top: 20px;
+  margin-bottom: :10px;
+}
+#university img{
+  margin:10px;
+  padding:8px;
+}
+#library{
+  margin: 10px;
+  padding: 10px;
+}
+.content-in-subject{
+  margin:10px;
+  padding: 10px;
+  border: dotted;
+  font-style: italic;
+  font-family: cardana;
+}
+#submission1{
+  padding: 20px;
+  margin: 30px;
+  align-items: center;
+
+}
+#submission1 form{
+  border: thin;
+  border-style: solid;
+  border-radius: 50px;
+  padding: 20px;
+  align-items: center;
+  background-color: 
+  font-family: candara;
+  font-weight: bold;
+
+}
+#about-course{
+  margin:10px;
+  padding: 10px;
+
+}
+.about-course .p{
+  font-family: Cardana;
+  font-weight: bolder;
+}
+.about-course{
+  background-color: #D1FFE8;
+  padding: 10px;
+  margin: 10px;
+}
+.video-class{
+  background-image: url(images/eduCOLOURBOX.jpg);
+}
+#video-class{
+  padding: 10px;
+  margin:10px;
+}
+.video-class{
+  padding: 10px;
+  margin: 10px;
+}
+#query-back{
+  padding: 10px;
+  margin: 10px;
+  align-content: center;
+}
+.col-auto{
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+.backgroundforweb{
+  background-image: url(images/89d47b4.jpg);
+  background-size: cover;
+}
+.webinar p{
+  background-color: red;
+  color: white;
+  border-radius:10px;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 110px;
+  padding-top: 50px;
+  padding: 20px;
+  font-family: verdana;
+  border-style: dotted;
+}
+.file-instruction{
+  padding:10px;
+  margin:10px;
+}
+.file-instruction p{
+  background-color: red;
+  text-align: center;
+  font-size: large;
+}
+.text1{
+  width: 50%;
+  position: sticky;
+
+}
+#content-for-home{
+  padding: 15px;
+  margin: 15px;
+}
+.container-2{
+  font-size: medium;
+  font-family: sans-serif;
+}
+.starting-button{
+  font-family: candara;
+  font-size: medium;
+  padding: 20px;
+  margin: 15px;
+  background-color: #D1FFE8;
+}
+.text1 a{
+  padding: 10px;
+  margin: 10px;
+  border-spacing: 10px;
+  border-style: thin;
+  background-color: #000BEE;
+  color: white;
+  font-family: sans-serif;
+  box-shadow: all;
+  font-style: italic;
+}
+.slide-show{
+  padding: 10px;
+  margin: 10px;
+}
+.slide-show1{
+  padding: 10px;
+  margin: 10px;
+  background-color: #9DFF87;
+}
+.jumbotron{
+  padding: 10px;
+  margin: 15px;
+}
+.jumbotron a{
+  padding: 10px;
+  font-family: sans-serif;
+  
+}
+#content-about-model{
+  padding: 15px;
+  margin: 15px;
+}
+.content2{
+  background-color: #FCFF26;
+  padding: 10px;
+  margin: 10px;
+
+}
+.content2 p{
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.container iframe{
+  background-color: white;
+}
+.gotomodel{
+  padding: 10px;
+  margin: 10px;
+  background-color: #000CFF;
+  color: white;
+}
+#gotomodel{
+  padding: 10px;
+  margin: 10px;
+}
+.direct-to{
+  padding: 10px;
+  margin: 10px;
+  align-self: center;
+}
+#blog-files{
+  padding: 15px;
+  margin: 10px;
+  
+}
+.story1{
+  font-family: candara;
+  padding: 20px;
+  margin: 10px;
+  background-color: #9BFF7D;
+  font-size: larger;
+  font-weight: 600;
+}
+.story2{
+  font-family: candara;
+  padding: 20px;
+  margin: 10px;
+  background-color: #FDFF7D;
+}
+.story3{
+  font-family: candara;
+  padding: 20px;
+  margin: 10px;
+  background-color: #FEB646;
+}
+.story3 ul{
+  padding: 20px;
+  margin: 10px;
+}
