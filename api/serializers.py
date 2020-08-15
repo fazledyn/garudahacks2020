@@ -2,7 +2,7 @@ from rest_framework import serializers
 
 #Models
 from django.contrib.auth.models import User
-from api.models import Donor, Newsletter
+from api.models import Donor, Newsletter, Contact
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -15,6 +15,12 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 class DonorSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Donor
+        exclude = []
+
+
+class ContactSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Contact
         exclude = []
 
 

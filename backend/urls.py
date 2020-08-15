@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('api/',     include('api.urls')),
+    path('cotter/',  include('cotter.urls')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]

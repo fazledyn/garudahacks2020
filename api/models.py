@@ -15,6 +15,15 @@ class Donor(models.Model):
         return self.first_name + " " + self.last_name
 
 
+class Contact(models.Model):
+    email = models.EmailField()
+    example = models.CharField(max_length=100)
+    complaint = models.TextField()
+
+    def __str__(self):
+        return self.email
+
+
 class Newsletter(models.Model):
     email = models.EmailField()
 
