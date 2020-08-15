@@ -28,7 +28,9 @@ SECRET_KEY = 'apd1es06@as*3zht6grzr1-3(&mh(6r_!*4ui%%no*d5evl%u*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'tigertechs.herokuapp.com',
+]
 
 
 # Application definition
