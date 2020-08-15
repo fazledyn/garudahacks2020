@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'mainsite',
-    'rest_framework',
+    #'rest_framework',
     #'cotter',
     #'api',
 ]
